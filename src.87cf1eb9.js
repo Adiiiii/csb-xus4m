@@ -6,6 +6,6 @@ var c=arguments[3];function l(c){return(l="function"==typeof Symbol&&"symbol"==t
 },{}],"aiJW":[function(require,module,exports) {
 
 },{}],"H99C":[function(require,module,exports) {
-function e(e,n,o,r,t,s,a){try{var c=e[s](a),u=c.value}catch(i){return void o(i)}c.done?n(u):Promise.resolve(u).then(r,t)}function n(n){return function(){var o=this,r=arguments;return new Promise(function(t,s){var a=n.apply(o,r);function c(n){e(a,t,s,c,u,"next",n)}function u(n){e(a,t,s,c,u,"throw",n)}c(void 0)})}}n(regeneratorRuntime.mark(function e(){return regeneratorRuntime.wrap(function(e){for(;;)switch(e.prev=e.next){case 0:return console.log("Trying to optimize parcel asset loading"),e.next=3,require("../node_modules/@fortawesome/fontawesome-free/css/all.css");case 3:return console.log((new Date).getSeconds()),e.next=6,require("../node_modules/@fortawesome/fontawesome-free/js/all.js");case 6:return console.log((new Date).getSeconds()),e.next=9,require("./styles.scss");case 9:console.log((new Date).getSeconds());case 10:case"end":return e.stop()}},e)}))();
+"use strict";require("../node_modules/@fortawesome/fontawesome-free/css/all.css"),require("../node_modules/@fortawesome/fontawesome-free/js/all.js"),require("./styles.scss");
 },{"../node_modules/@fortawesome/fontawesome-free/css/all.css":"Eofe","../node_modules/@fortawesome/fontawesome-free/js/all.js":"akDK","./styles.scss":"aiJW"}]},{},["H99C"], null)
-//# sourceMappingURL=/csb-xus4m/src.28d118bf.js.map
+//# sourceMappingURL=/csb-xus4m/src.87cf1eb9.js.map
